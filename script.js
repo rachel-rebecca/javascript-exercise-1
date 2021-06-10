@@ -1,10 +1,10 @@
 let actualTemp = prompt("What's the actual temperature?");
 let desiredTemp = 72;
 
-if (actualTemp < 72) {
+if (actualTemp < desiredTemp) {
     alert("Run heat")
     console.log("Run heat")
-} else if (actualTemp > 72) {
+} else if (actualTemp > desiredTemp) {
     alert("Run A/C")
     console.log("Run A/C")
 } else {
