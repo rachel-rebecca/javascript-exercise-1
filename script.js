@@ -17,8 +17,8 @@ let tempCelsius = prompt("Temperature in Celsius to convert:");
 const targetUnit = prompt("Select target unit: F, C, or K");
 switch (targetUnit) {
   case "F":
-    let double = tempCelsius * 2;
-    let final = double + 30;
+    let double = tempCelsius * (9/5);
+    let final = double + 32;
     console.log(final + " F");
     break;
   case "C":
